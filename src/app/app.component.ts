@@ -26,20 +26,7 @@ export class AppComponent {
     this.title='Aplicativo LPWEB Interativo'
   }
   
-//funções
 
-  
-  //mais(x, y){
-   // this.aparece=''+(Number(this.aparece)+Number(this.aparece))
-   
-    
-    
-       
-    
-  
-  
-//botões
-  
   um(){
     this.aparece+=1;
   }
