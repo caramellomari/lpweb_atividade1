@@ -1,32 +1,34 @@
 <div style="text-align:center">
   <h1>
-    Welcome to {{title}}!
+    Calculadora da Mari =)
   </h1>
 
-  <!-- botão -->
+  <!-- botão teste*
   <button class="btn btn-default" (click)="clicou()">Clique</button> 
-   <!-- botão -->
-
+   botão -->
   <!-- tela superior calculadora -->
-  <div style="text-align: left">
-    <h1>CALCULADORA</h1>
-    <h1>{{aparece}}</h1> 
+  <div>
+       
+    
+    <table frame="box" style="width:260px; height:100px; text-align:right">
+      <tr>
+        <td><h1>{{aparece}}</h1></td>
+      </tr>
+    </table>
    
     <table frame="box" cellspacing=10 cellpadding=1 bgcolor="#63B8FF">
       
-        <tr>
-          
-          
+        <tr>      
           <td><button type="button" style="width: 50px; height: 50px" (click)="um()">1</button></td>
           <td><button type="button" style="width: 50px; height: 50px" (click)="dois()">2</button></td>
           <td><button type="button" style="width: 50px; height: 50px" (click)="tres()">3</button></td>
-          <td><button type="button" style="width: 50px; height: 50px" (click)="mais(x, y)">+</button></td>
+          <td><button type="button" style="width: 50px; height: 50px" (click)="somar()">+</button></td>
         </tr>
         <tr>
           <td><button type="button" style="width: 50px; height: 50px" (click)="quatro()">4</button></td>
           <td><button type="button" style="width: 50px; height: 50px" (click)="cinco()">5</button></td>
           <td><button type="button" style="width: 50px; height: 50px" (click)="seis()">6</button></td>
-          <td><button type="button" style="width: 50px; height: 50px" (click)="menos()">-</button></td>
+          <td><button type="button" style="width: 50px; height: 50px" (click)="subtrair()">-</button></td>
         </tr>
         <tr>
           <td><button type="button" style="width: 50px; height: 50px" (click)="sete()">7</button></td>
