@@ -18,9 +18,6 @@ export class AppComponent {
     this.operacao='+';
 
   }
-
- 
-  
   
   clicou(){
     this.title='Aplicativo LPWEB Interativo'
